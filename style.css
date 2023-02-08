@@ -1,0 +1,126 @@
+.activelink , .activelink:hover
+{
+    background-color: white;
+    color: #00b5b8;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    font-size: 18px;
+    border: 4px solid #00b5b8;
+    text-decoration: none;
+}
+
+a, a:hover
+{
+    background-color: #00b5b8;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+hr
+{
+    border: 3px solid #edeff3;
+    width: 29%;
+}
+
+.activehr
+{
+    border: 3px solid #00b5b8;
+    width: 29%;
+}
+
+span
+{
+    font-size: 14px;
+    color: lightgray;
+}
+
+.activespan
+{
+    color: black;
+}
+
+#steps1,#steps2,#steps3,#steps4
+{
+    padding-top: 120px;
+}
+
+.button-prev
+{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgba(35, 34, 34,0.5);
+    background-color: whitesmoke;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 8px;
+}
+
+.disabled
+{
+    opacity: 0.5;
+}
+
+.button-next,.button-submit
+{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    background-color: #00b5b8;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 8px;
+}
+
+.button-edit
+{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    background-color: #dcbc06;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.button-delete
+{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    background-color: #ff3860;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.error {
+    color: #ff3860;
+    font-size: 14px;
+}
+
+
+#table
+{
+    padding-bottom: 50px;
+}
